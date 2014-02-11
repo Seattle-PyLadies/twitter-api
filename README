@@ -1,0 +1,5 @@
+Here's a simple streamer to get started ingesting tweets from Twitter.  You'll need to modify the streamer to include your personal credentials to access the Twitter API.  
+
+Get your credentials here:  https://dev.twitter.com/
+
+Optionally you'll want to modify the 'track' list to include keywords that you want to track in the tweets.  The default setting listens for tweets that contain the words 'Seattle' or 'Python.'
