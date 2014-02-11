@@ -3,3 +3,15 @@ Here's a simple streamer to get started ingesting tweets from Twitter.  You'll n
 Get your credentials here:  https://dev.twitter.com/
 
 Optionally you'll want to modify the 'track' list to include keywords that you want to track in the tweets.  The default setting listens for tweets that contain the words 'Seattle' or 'Python.'
+
+Using the streamer:
+
+First you'll need to install the library dependencies.  If you've got pip set up, you can just run:
+
+pip install requirements.txt
+
+Then to run the following at the prompt streamer type:
+
+python streamer.py
+
+The tweets will collect in a file in json format.
